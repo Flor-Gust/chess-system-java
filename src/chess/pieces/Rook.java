@@ -6,10 +6,13 @@ import chess.Color;
 
 public class Rook extends ChessPiece{
 
+	//CONSTRUTORES
 	public Rook(Board board, Color color) {
 		super(board, color);
 	}
 	
+	
+	//METODOS
 	@Override
 	public String toString() {
 		return "R";
